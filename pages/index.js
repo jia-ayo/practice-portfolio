@@ -1,5 +1,8 @@
 import Head from 'next/head';
-import {BsFillMoonStarsFill} from "react-icons/bs"
+import {BsFillMoonStarsFill} from "react-icons/bs";
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai";
+import Image from "next/image";
+import jiaImg from "../public/jiaImg.png";
 
 export default function Home() {
   return (
@@ -13,14 +16,31 @@ export default function Home() {
       <main className="bg-white px-10">
       <section className="min-h-screen">
         <nav className="py-10 mb-10 flex justify-between">
-          <h1 className="text-xl">Developed by JIA</h1>
+          <h1 className="text-xl font-burtons">Developed by JIA</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill/>
             </li>
-            <li><a>Resume</a></li>
+            <li>
+              <a className="bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-4 py-2 ml-8 rounded-md">Resume</a>
+            </li>
           </ul>
         </nav>
+        <div className="text-center p-10"> 
+          <h2 className="text-5xl py-3 text-teal-600 font-medium">Ilori Joshua</h2>
+          <h3 className="text-2xl py-2 ">Developer</h3>
+          <p className="text-md py-5 leading-8 text-gray-800">I am a developer that works with web and blckchain technology. 
+             And would love to work to build/upgrade your idea
+          </p>
+        </div>
+        <div className="text-4xl flex justify-center gap-10 py-2 text-gray-600">
+          <AiFillGithub/>
+          <AiFillLinkedin/>
+          <AiFillTwitterCircle/>
+        </div>
+        <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-80 h-80 mt-10 overflow-hidden">
+          <Image src={jiaImg} layout="fill" objectFit="cover"/>
+        </div>
       </section>
       </main>
     </div>
