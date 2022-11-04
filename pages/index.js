@@ -57,13 +57,9 @@ export default function Home() {
       <section>
         <div className="text-center mt-4">
           <h3 className="text-5xl py-1 dark:text-slate-100">Services I Offer</h3>
+          
           <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-100">
-            Since i started my development journey I have worked with a few projects
-            In the <span className="text-teal-200">Nft</span> space. 
-            I worked remotely for all the projects, I am looking for opportunity to work on bigger projects (grow). I love challenges
-          </p>
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-100">
-          Since I started my development journey I have worked on a few projects In the NFT space. 
+          Since I started my development journey I have worked on a few projects In the <span className="text-teal-200">Nft</span>  space. 
           I have worked remotely for all the projects, I am looking for opportunity to work on bigger projects (grow),
            I love challenges.
           I offer a wide range of service from web development to NFT development(full project), 
