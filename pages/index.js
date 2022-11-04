@@ -71,7 +71,7 @@ export default function Home() {
           </p>
         </div>
         <div className="md:flex gap-10">
-          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100">
+          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto" src={nftImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">SmartContract development</h3>
              <h4 className="py-4 text-teal-600 ">The Tools I Use</h4>
@@ -80,7 +80,7 @@ export default function Home() {
              <p className="text-gray-800 py-1">solidity</p>
 
           </div>
-          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100">
+          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto mt-10 mb-2" src={frontImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">Frontend development</h3>
              <h4 className="py-4 text-teal-600 ">The Tools I Use</h4>
@@ -88,7 +88,7 @@ export default function Home() {
              <p className="text-gray-800 py-1">tailwind/bootstrap</p>
              <p className="text-gray-800 py-1">css/html/javascript</p>
           </div>
-          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100">
+          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto" src={backImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">Backend development</h3>
              <h4 className="py-4 text-teal-600 ">The Tools I Use </h4>
@@ -116,7 +116,7 @@ export default function Home() {
              Learnt alot on the course of workking with this project.
              </p>
           </div>
-          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100">
+          <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto mt-10" src={storeImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">Fullstack development</h3>
              <h4 className="py-4 text-teal-600 ">Jia store</h4>
