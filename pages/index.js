@@ -45,9 +45,9 @@ export default function Home() {
           </p>
         </div>
         <div className="text-4xl flex justify-center gap-10 py-2 text-gray-600 dark:text-slate-100">
-          <AiFillGithub/>
-          <AiFillLinkedin/>
-          <AiFillTwitterCircle/>
+          <a href="https://github.com/jia-ayo" target="_blank"><AiFillGithub/></a>
+          <a href="https://www.linkedin.com/in/jia-ayo/" target="_blank"><AiFillLinkedin/></a>
+          <a href="https://twitter.com/jia_ayo" target="_blank"><AiFillTwitterCircle/></a>
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-40 h-40 mt-10 overflow-hidden lg:w-80 lg:h-80 ">
           <Image src={jiaImg} layout="fill" objectFit="cover"/>
