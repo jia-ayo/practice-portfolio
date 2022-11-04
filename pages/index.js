@@ -49,12 +49,12 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/jia-ayo/" target="_blank"><AiFillLinkedin/></a>
           <a href="https://twitter.com/jia_ayo" target="_blank"><AiFillTwitterCircle/></a>
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-40 h-40 mt-10 overflow-hidden lg:w-80 lg:h-80 ">
+        <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-40 h-40 mt-10 overflow-hidden lg:w-80 lg:h-80 pb-0">
           <Image src={jiaImg} layout="fill" objectFit="cover"/>
         </div>
       </section>
       
-      <section className="pt-4">
+      <section className="pt-3 md:pt-4 lg:pt-5">
         <div className="text-center">
           <h3 className="text-5xl py-1 dark:text-slate-100">Services I Offer</h3>
           <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-100">
