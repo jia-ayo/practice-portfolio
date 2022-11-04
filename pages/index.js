@@ -109,7 +109,7 @@ export default function Home() {
           <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto mt-10 mb-2" src={raskyImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">Fullstack development</h3>
-             <h4 className="py-4 text-teal-600 ">Rasky Rebels</h4>
+             <h4 className="py-4 text-teal-600 "><a href="https://raskyrebels.netlify.app/" target="_blankc" >Rasky Rebels</a></h4>
              <p className="text-gray-800 py-1">
              I worked on the minting site by editing it with typescript 
              with react to creating a lovely one page minting. 
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
              <Image className="mx-auto mt-10" src={storeImg} width="100" height="100"/>
              <h3 className="text-lg font-medium pt-8 pb-2">Fullstack development</h3>
-             <h4 className="py-4 text-teal-600 ">Jia store</h4>
+             <h4 className="py-4 text-teal-600 "><a href="https://jia-solana-store.vercel.app/" target="_blank">Jia store</a></h4>
              <p className="text-gray-800 py-1">
              This is a site that allows you to sell and buy with 
              Solana on the devnet . this was a project 
