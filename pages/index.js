@@ -50,7 +50,7 @@ export default function Home() {
           <a href="https://twitter.com/jia_ayo" target="_blank"><AiFillTwitterCircle/></a>
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-40 h-40 mt-10 overflow-hidden lg:w-80 lg:h-80 pb-0">
-          <Image src={jiaImg} layout="fill" objectFit="cover"/>
+          <Image className="w-40 h-40 lg:w-80 lg:h-80 " src={jiaImg} layout="fill" objectFit="cover"/>
         </div>
       </section>
       
