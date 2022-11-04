@@ -54,8 +54,8 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="pt-3 md:pt-4 lg:pt-5">
-        <div className="text-center">
+      <section>
+        <div className="text-center pt-4 md:pt-4 lg:pt-4">
           <h3 className="text-5xl py-1 dark:text-slate-100">Services I Offer</h3>
           <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-100">
             Since i started my development journey I have worked with a few projects
