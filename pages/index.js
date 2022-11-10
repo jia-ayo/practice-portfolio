@@ -17,7 +17,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         
-        <meta name="description" content="This is a personal that shows JIA who is a fullstack developer that develop website using nextjs and nodejs as his main tool.">
+        <meta name="description" content="This is a personal that shows JIA who is a fullstack developer that develop website using nextjs and nodejs as his main tool."/>
         <meta name="keywords" content="personal cv site, developer, engineer, Ilori Joshua Ayomide, Ilori Joshua" />
         <meta name="author" content="Ilori Joshua" />
         <title>jia-ayo portfolio</title>
