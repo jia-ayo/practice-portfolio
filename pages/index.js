@@ -28,7 +28,7 @@ export default function Home() {
       <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-slate-800">
       <section className="min-h-screen">
         <nav className="py-10 mb-10 flex justify-between">
-          <h1 className="text-md md:text-xl lg:text-3xl font-burtons dark:text-slate-100">Developed by JIA</h1>
+          <h1 className="text-lg md:text-2xl lg:text-3xl font-burtons dark:text-slate-100">Developed by JIA</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill 
