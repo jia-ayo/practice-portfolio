@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from "react-icons/bs";
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai";
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub, AiTwotoneCalendar} from "react-icons/ai";
 import Image from "next/image";
 import jiaImg from "../public/jiaImg.png";
 import nftImg from "../public/nft-mistery-b.png";
@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-slate-800">
+      <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-slate-800">
       <section className="min-h-screen">
         <nav className="py-10 mb-10 flex justify-between">
           <h1 className="text-xl font-burtons dark:text-slate-100">Developed by JIA</h1>
@@ -52,6 +52,7 @@ export default function Home() {
           <a href="https://github.com/jia-ayo" target="_blank"><AiFillGithub/></a>
           <a href="https://www.linkedin.com/in/jia-ayo/" target="_blank"><AiFillLinkedin/></a>
           <a href="https://twitter.com/jia_ayo" target="_blank"><AiFillTwitterCircle/></a>
+          <a href="https://calendly.com/jia-ayo/30min" target="_blank"><AiTwotoneCalendar/></a>
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-200 rounded-full  w-40 h-40 mt-10 overflow-hidden md:w-60 md:h-60 lg:w-80 lg:h-80 pb-0">
           <Image  src={jiaImg} layout="fill" objectFit="cover"/>
