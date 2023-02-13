@@ -132,6 +132,15 @@ export default function Home() {
         </div>
 
       </section>
+      <section>
+               <div classname="text-center">
+               <h1>
+               Experience
+               </h1>
+               </div>
+               
+      </section>
+
 
       </main>
     </div>
