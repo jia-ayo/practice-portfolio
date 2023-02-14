@@ -145,8 +145,9 @@ export default function Home() {
                <p className="text-gray-800 py-1">
              
                </p>
+               </div>
+            </div>
           </div>
-           </div>
                
       </section>
 
