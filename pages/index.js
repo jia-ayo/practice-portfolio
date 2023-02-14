@@ -133,11 +133,20 @@ export default function Home() {
 
       </section>
       <section>
-               <div classname="text-center">
-               <h1>
-               Experience
-               </h1>
-               </div>
+           <div className="pb-2">
+              <div className="text-center">
+                <h3 className="text-3xl py-1 md:text-4xl lg:text-5xl dark:text-slate-100">Experience</h3>
+              </div>
+              <div className="md:flex gap-10">
+                <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+             
+                <h3 className="text-lg font-medium pt-8 pb-2">Intern</h3>
+               <h4 className="py-4 text-teal-600 "> Wedance</h4>
+               <p className="text-gray-800 py-1">
+             
+               </p>
+          </div>
+           </div>
                
       </section>
 
