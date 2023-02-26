@@ -34,9 +34,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-slate-800">
+      <main className="bg-white px-5 md:px-20 lg:px-40 bg-slate-200 dark:bg-slate-800">
         <section className="min-h-screen">
-          <nav className="py-3 mb-3 md:py-10 md:mb-10 flex justify-between">
+          <nav className="py-3 mb-3 md:py-5 md:mb-5 flex justify-between">
             <h1 className="text-lg md:text-2xl lg:text-3xl font-burtons dark:text-slate-100">
               Developed by JIA
             </h1>
@@ -106,7 +106,7 @@ export default function Home() {
             </p>
           </div>
           <div className="md:flex justify-center  gap-10">
-            <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+            <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
               <Image
                 className="mx-auto"
                 src={nftImg}
@@ -121,7 +121,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Metaplex</p>
               <p className="text-gray-800 py-1">solidity</p>
             </div>
-            <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+            <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
               <Image
                 className="mx-auto mt-10 mb-2"
                 src={frontImg}
@@ -136,7 +136,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">tailwind/bootstrap</p>
               <p className="text-gray-800 py-1">css/html/javascript</p>
             </div>
-            <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+            <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
               <Image
                 className="mx-auto"
                 src={backImg}
@@ -161,7 +161,7 @@ export default function Home() {
               </h3>
             </div>
             <div className="md:flex justify-center  gap-10">
-              <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+              <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
                 <Image
                   className="mx-auto mt-10 mb-2"
                   src={raskyImg}
@@ -182,7 +182,7 @@ export default function Home() {
                   on the course of workking with this project.
                 </p>
               </div>
-              <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+              <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
                 <Image
                   className="mx-auto mt-10"
                   src={storeImg}
@@ -212,14 +212,14 @@ export default function Home() {
         <section>
           <div className="pb-2 ">
             <div className="text-center">
-              <h3 className="text-3xl py-1 md:text-4xl lg:text-5xl dark:text-slate-100">
+              <h3 className="text-3xl py-1 md:text-4xl lg:text-5xl  dark:text-slate-100">
                 Experience
               </h3>
             </div>
             <div className="md:flex justify-center gap-10 md:gap-40">
-              <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+              <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
                 <Image
-                  className="mx-auto mt-10"
+                  className="mx-auto mt-10 rounded-full "
                   src="https://media.licdn.com/dms/image/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/0/1674468940073?e=1685577600&v=beta&t=Rc4h4wUvUbPRV4WLoWV9qZHiXwDcucPqmW_SKAA4Gnc"
                   width="100"
                   height="100"
@@ -238,9 +238,9 @@ export default function Home() {
                 <p className="text-gray-800 py-1">full-stack Developer</p>
                 <p className="text-gray-800 py-1">01/2023-present</p>
               </div>
-              <div className="shadow-lg text-center rounded-xl p-10 my-10 dark:bg-slate-100 dark:shadow-slate-600/40">
+              <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
                 <Image
-                  className="mx-auto mt-10"
+                  className="mx-auto mt-10 rounded-full"
                   src="https://media.licdn.com/dms/image/C560BAQHPxq7WpGJW5A/company-logo_200_200/0/1654130363004?e=1685577600&v=beta&t=r2KSgES0X1IzIi_cnTrxoLger9-OAGH3nL9RLsE0weE"
                   width="100"
                   height="100"
