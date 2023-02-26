@@ -36,7 +36,7 @@ export default function Home() {
 
       <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-slate-800">
         <section className="min-h-screen">
-          <nav className="py-10 mb-10 flex justify-between">
+          <nav className="py-3 mb-3 md:py-10 md:mb-10 flex justify-between">
             <h1 className="text-lg md:text-2xl lg:text-3xl font-burtons dark:text-slate-100">
               Developed by JIA
             </h1>
@@ -92,7 +92,7 @@ export default function Home() {
 
         <section>
           <div className="text-center mt-4">
-            <h3 className="text-5xl py-1 dark:text-slate-100">
+            <h3 className="text-4xl md:text-5xl py-1 dark:text-slate-100">
               Services I Offer
             </h3>
 
