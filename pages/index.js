@@ -178,8 +178,8 @@ export default function Home() {
                 </h4>
                 <p className="text-gray-800 py-1">
                   I worked on the minting site by editing it with typescript
-                  with react to creating a lovely one page minting. Learnt alot
-                  on the course of workking with this project.
+                  with react to creating a lovely one page minting. I Learnt alot
+                  on the course of working on this project.
                 </p>
               </div>
               <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
@@ -201,8 +201,8 @@ export default function Home() {
                   </a>
                 </h4>
                 <p className="text-gray-800 py-1">
-                  This is a site that allows you to sell and buy with Solana on
-                  the devnet . this was a project that was developed in the
+                  This is a site that allows you to sell and buy goods with Solana on
+                  the devnet. This was a project that was developed in the
                   build space academy .
                 </p>
               </div>
