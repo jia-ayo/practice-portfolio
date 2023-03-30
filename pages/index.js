@@ -49,7 +49,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="/Ilori_Joshua_Resume.pdf"
+                  href="/ilori-joshua-resume.pdf"
                   download
                   className="bg-gradient-to-r from-cyan-400 to-blue-600 text-white px-4 py-2 ml-8 rounded-md"
                 >
@@ -106,7 +106,7 @@ export default function Home() {
             </p>
           </div>
           <div className="md:flex justify-center  gap-10">
-            <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-white dark:bg-slate-100 dark:shadow-slate-600/40">
+            <div className="shadow-lg text-center rounded-xl p-10 my-10 bg-whitelo dark:bg-slate-100 dark:shadow-slate-600/40">
               <Image
                 className="mx-auto"
                 src={nftImg}
